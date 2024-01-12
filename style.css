@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    background-color: rgb(91, 23, 91);
+    color: white;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    /* margin: 20px;    */
+}
+
+.left{
+ margin: 8px 20px;
+ font-size: 1.8rem;
+    
+
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 60px;
+    height: 4vh;
+    /* padding: 2px; */
+    cursor: pointer;
+    }
+    body{
+        background-color: black;
+        font-family:  'Fira Sans', sans-serif;;
+    }
+    nav ul li:hover{
+        color: black;
+        font-size: 1.5rem;
+        
+        }
+        main{
+            height: 200vh;
+    
+        }
+        .first{
+            height: 20vh;
+            color: white;
+            width: 142vh;
+            font-size: 6rem;
+            text-transform: uppercase;
+            /* align-items: center; */
+            margin: 25vh;
+            opacity: .5;
+            /* line-height: ; */
+        }
+        #element{
+            color:rgb(244, 75, 204);
+            margin-left: 420px;
+            
+        }
+
+        .second ul {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            color: white;
+            font-size: 1.2rem;
+            text-decoration: none;
+            list-style: none;
+            /* font-family: 'Fira Sans', sans-serif; */
+            font-family: 'Kanit', sans-serif;
+            }
+            .second ul li{
+                position: relative; 
+                display: inline-block;
+                cursor: pointer;
+            }
+            .second ul li:after{
+                content: "";
+                position: absolute;
+                height: 2px;
+                left: 0;;
+                background-color: rgb(244, 66, 241);
+                width: 0;
+                bottom:-10px;
+                transition: 0.3sec;
+            }
+            .second ul li:hover::after{
+                width: 100%;
+            }
+            .third{
+                 
+                    width: 270px;
+                    height: 250px;
+                    margin-top: 30px;
+                    margin-left: 205px;
+                    border-width: 4px; /* Adjust this value */
+                    border-style: solid; /* Add this line */
+                    border-color:blanchedalmond;
+                    border-radius: 26px;
+                    background-color: purple;
+                    padding: 20px;
+                    box-sizing: border-box;
+                
+                
+            }
+            .third:hover{
+                background-color: rgb(102, 102, 169);
+                width: 300px;
+                height: 300px;
+            }
+            .fourth{
+                margin: 3px;
+                margin-left: 15px;
+            }
+           .fifth{
+            margin-left:32px;
+           }
+           .fifth  li{
+            margin: 20px;
+            color: white;
+            position: relative; 
+           /* display: inline-block; */
+            cursor: pointer;
+            font-size: 1rem;
+        } 
+          
+        .fifth li:after{
+            content: "";
+            position: absolute;
+            height: 2px;
+            left: -20px;;
+            background-color: black;
+            width: 10;
+            bottom: -10px;
+            transition: 0.3sec;
+            
+            
+            /* font-size: 2px; */
+        }
+        .fifth li:hover::after{
+            width: 100%;
+            color: black;
+            /* font-size: 2rem; */
+            
+        }
+        .eighth{
+            width: 287px;
+            height: 250px;
+            margin-top: 30px;
+            margin-left: 205px;
+            border-width: 4px; /* Adjust this value */
+            border-style: solid; /* Add this line */
+            border-color:blanchedalmond;
+            border-radius: 26px;
+            background-color: purple;
+            padding: 20px;
+            box-sizing: border-box;  
+        }
+        .eighth:hover{
+            background-color: rgb(102, 102, 169);
+            width: 300px;
+            height: 300px;
+        }
+        .nineth{
+            width: 270px;
+            height: 250px;
+            margin-top: 30px;
+            margin-left: 205px;
+            border-width: 4px; /* Adjust this value */
+            border-style: solid; /* Add this line */
+            border-color:blanchedalmond;
+            border-radius: 26px;
+            background-color: purple;
+            padding: 20px;
+            box-sizing: border-box;   
+        }
+        .nineth:hover{
+            background-color: rgb(102, 102, 169);
+            width: 300px;
+            height: 300px;
+        }
+        .boxes{
+            display: flex;
+            align-items: center;
+            /* justify-content: space-between; */
+        }
+        .seventh{
+            margin-left:32px;
+           }
+           .seventh  li{
+            margin: 20px;
+            color: white;
+            position: relative; 
+           /* display: inline-block; */
+            cursor: pointer;
+            font-size: 1rem;
+        } 
+          
+        .seventh li:after{
+            content: "";
+            position: absolute;
+            height: 2px;
+            left: -20px;;
+            background-color: black;
+            width: 10;
+            bottom: -10px;
+            transition: 0.3sec;
+            
+            
+            /* font-size: 2px; */
+        }
+        .seventh li:hover::after{
+            width: 100%;
+            color: black;
+            /* font-size: 2rem; */
+            
+        }
+        .eleventh{
+            margin-left:32px;
+           }
+           .eleventh  li{
+            margin: 20px;
+            color: white;
+            position: relative; 
+           /* display: inline-block; */
+            cursor: pointer;
+            font-size: 1rem;
+        } 
+          
+        .eleventh li:after{
+            content: "";
+            position: absolute;
+            height: 2px;
+            left: -20px;;
+            background-color: black;
+            width: 10;
+            bottom: -10px;
+            transition: 0.3sec;
+            
+            
+            /* font-size: 2px; */
+        }
+        .eleventh li:hover::after{
+            width: 100%;
+            /* color: black; */
+            /* font-size: 2rem; */
+            
+        }
+        .twelth{
+            margin: 281px;
+            height: 282px;
+            background-color: rgb(84, 61, 106);
+            width: 53%;
+            margin-left: 24%;
+            /* margin-right: 30%; */
+            border-style: solid;
+            border-width: 5px;
+            border-color: rgb(123, 53, 53);
+            border-radius: 5px;
+        }
+        .twelth:hover{
+            width: 55%;
+            height: 285px;
+            background-color: rgb(105, 53, 53);
+            border-style: solid;
+            border-width: 5px;
+            border-color: rgb(101, 53, 101);
+            border-radius: 5px; 
+           margin-left: 23%;
+           cursor: pointer;
+           
+        }
+        .twelth h1{
+            color: black;
+            font-size: 2.4rem;
+            margin-left: 40%;
+            margin-top: 20px;
+            font-family: 'Oswald', sans-serif;
+        }
+        .twelth p{
+            margin-left: 19%;
+            color: white;
+            width: 66%;
+            margin-top: 10px;
+            font-size: 1.4rem;
+        }
+        .textrights{
+            margin: -1px;
+background-color: rgb(86, 86, 42);
+height: 25px;
+width: 100%;
+        }
+        .words{
+            margin-top: 13px;
+            margin-left: 40%;
+        color: black;  
+    font-size: 0.8rem;     }
+       
+       
